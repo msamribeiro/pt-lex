@@ -1,0 +1,312 @@
+# YAML
+language: pt-PT
+version: 0.1
+phoneset:
+    p:
+        type: consonant
+        attributes:
+            - plosive
+        sampa: p
+        word: pai
+        pt_example: p ah j 1
+        sampa_example: 'paj'
+    b:
+        type: consonant
+        attributes:
+            - plosive
+        sampa: b
+        word: barco
+        pt_example: b ah r k 1 - k u
+        sampa_example: '"barku'
+    t:
+        type: consonant
+        attributes:
+            - plosive
+        sampa: t
+        word: tenho
+        pt_example: t a 1 - nh u
+        sampa_example: '"teJu'
+    d:
+        type: consonant
+        attributes:
+            - plosive
+        sampa: d
+        word: doce
+        pt_example: d o s 1 - s ij
+        sampa_example: '"dos@'
+    k:
+        type: consonant
+        attributes:
+            - plosive
+        sampa: k
+        word: com
+        pt_example: k on 1
+        sampa_example: 'ko~'
+    g:
+        type: consonant
+        attributes:
+            - plosive
+        sampa: g
+        word: grande
+        pt_example: g r an 1 - d ij
+        sampa_example: '"gr6nd@'
+    f:
+        type: consonant
+        attributes:
+            - fricative
+        sampa: f
+        word: falo
+        pt_example: f ah 1 - l u
+        sampa_example: '"falu'
+    v:
+        type: consonant
+        attributes:
+            - fricative
+        sampa: v
+        word: verde
+        pt_example: v e r 1 - d ij
+        sampa_example: '"verd@'
+    s:
+        type: consonant
+        attributes:
+            - fricative
+        sampa: s
+        word: céu
+        pt_example: s eh w 1
+        sampa_example: 'sEw'
+    z:
+        type: consonant
+        attributes:
+            - fricative
+        sampa: z
+        word: casa
+        pt_example: k ah 1 - z a
+        sampa_example: '"kaz6'
+    sh:
+        type: consonant
+        attributes:
+            - fricative
+        sampa: S
+        word: chapéu
+        pt_example: sh a - p eh w 1
+        sampa_example: 'S6"pEw'
+    zh:
+        type: consonant
+        attributes:
+            - fricative
+        sampa: Z
+        word: jóia
+        pt_example: j oh i 1 - a
+        sampa_example: '"ZOj6'
+    m:
+        type: consonant
+        attributes:
+            - plosive
+            - nasal
+        sampa: m
+        word: mar
+        pt_example: m ah r 1
+        sampa_example: 'mar'
+    n:
+        type: consonant
+        attributes:
+            - plosive
+            - nasal
+        sampa: n
+        word: nada
+        pt_example: n ah 1 - d a
+        sampa_example: '"nad6'
+    nh:
+        type: consonant
+        attributes:
+            - nasal
+        sampa: J
+        word: vinho
+        pt_example: v i 1 - nh u
+        sampa_example: '"viJu'
+    l:
+        type: consonant
+        attributes:
+            - liquid
+        sampa: l
+        word: lanche
+        pt_example: l an 1 - sh ij
+        sampa_example: '"l6nS@'
+    lh:
+        type: consonant
+        attributes:
+            - liquid
+        sampa: L
+        word: trabalho
+        pt_example: t r a - b ah 1 - lh u
+        sampa_example: 'tr6"baLu'
+    r:
+        type: consonant
+        attributes:
+            - liquid
+        sampa: r
+        word: caro
+        pt_example: k ah 1 - r u
+        sampa_example: '"karu'
+    rr:
+        type: consonant
+        attributes:
+            - liquid
+        sampa: R
+        word: rua
+        pt_example: rr u a 1
+        sampa_example: '"Ru6'
+    lj:
+        type: consonant
+        attributes:
+            - liquid
+        sampa: 
+        word: mel
+        pt_example: m eh lj 1
+        sampa_example:
+
+    i:
+        type: vowel
+        attributes:
+            - oral
+        sampa: i
+        word: lápis
+        pt_example: l ah 1 - p i sh
+        sampa_example: '"lapiS'
+    e:
+        type: vowel
+        attributes:
+            - oral
+        sampa: e
+        word: fazer
+        pt_example: f a - z e r 1
+        sampa_example: 'f6"zer'
+    eh:
+        type: vowel
+        attributes:
+            - oral
+        sampa: E
+        word: belo
+        pt_example: b eh 1 - l u
+        sampa_example: '"bElu'
+    ah:
+        type: vowel
+        attributes:
+            - oral
+        sampa: a
+        word: falo
+        pt_example: f ah 1 - l u
+        sampa_example: '"falu'
+    a:
+        type: vowel
+        attributes:
+            - oral
+        sampa: '6'
+        word: cama
+        pt_example: k a 1 - m a
+        sampa_example: '"k6m6'
+    oh:
+        type: vowel
+        attributes:
+            - oral
+        sampa: O
+        word: cópia
+        pt_example: k oh 1 - p j a
+        sampa_example: '"kOpj6'
+    o:
+        type: vowel
+        attributes:
+            - oral
+        sampa: o
+        word: lobo
+        pt_example: l o 1 - b u
+        sampa_example: '"lobu'
+    u:
+        type: vowel
+        attributes:
+            - oral
+        sampa: u
+        word: jus
+        pt_example: zh u sh 1
+        sampa_example: 'ZuS'
+    ij:
+        type: vowel
+        attributes:
+            - oral
+        sampa: '@'
+        word: felizes
+        pt_example: f ij - l i 1 - z ij sh
+        sampa_example: 'f@"liz@S'
+
+    in:
+        type: vowel
+        attributes:
+            - nasal
+        sampa: i~
+        word: fim
+        pt_example: f in 1
+        sampa_example: 'fi~'
+    en:
+        type: vowel
+        attributes:
+            - nasal
+        sampa: e~
+        word: emprego
+        pt_example: en - p r e 1 - g u
+        sampa_example: 'e~"pregu'
+    an:
+        type: vowel
+        attributes:
+            - nasal
+        sampa: 6~
+        word: irmã
+        pt_example: i r - m an 1
+        sampa_example: 'ir"m6~'
+    'on':
+        type: vowel
+        attributes:
+            - nasal
+        sampa: o~
+        word: bom
+        pt_example: b on 1
+        sampa_example: 'bo~'
+    un:
+        type: vowel
+        attributes:
+            - nasal
+        sampa: u~
+        word: um
+        pt_example: un 1
+        sampa_example: u~
+    w:
+        type: glide
+        attributes:
+            - oral
+        sampa: w
+        word: mau
+        pt_example: m ah w 1
+        sampa_example: maw
+    j:
+        type: glide
+        attributes:
+            - oral
+        sampa: j
+        word: pai
+        pt_example: p ah j 1
+        sampa_example: paj
+    wn:
+        type: glide
+        attributes:
+            - nasal
+        sampa:
+        word: mão
+        pt_example: m an wn 1
+        sampa_example:
+    jn:
+        type: glide
+        attributes:
+            - nasal 
+        sampa:
+        word: mãe
+        pt_example: m an jn 1
+        sampa_example:
